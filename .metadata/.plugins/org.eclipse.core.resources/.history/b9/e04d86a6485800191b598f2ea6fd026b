@@ -1,0 +1,6 @@
+package top.tamlong.annotation;
+
+public interface UserDao {
+	public void save();
+
+}

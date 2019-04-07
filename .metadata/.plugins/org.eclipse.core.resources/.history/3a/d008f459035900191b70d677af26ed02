@@ -1,0 +1,8 @@
+package top.tamlong.factorybean;
+
+import org.aopalliance.intercept.MethodInterceptor;
+
+// «–√Ê¿‡
+public class MyAspect implements MethodInterceptor{
+	
+}

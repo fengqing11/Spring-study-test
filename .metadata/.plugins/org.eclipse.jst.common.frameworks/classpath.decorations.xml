@@ -1,0 +1,10 @@
+<classpath>
+  <container id="test!org.eclipse.jst.j2ee.internal.web.container">
+    <entry id="C:/Users/Administrator/eclipse-workspace/test/WebContent/WEB-INF/lib/spring-beans-4.0.4.RELEASE.jar">
+      <source-attachment-path>/test/WebContent/WEB-INF/lib/spring-beans-4.0.4.RELEASE.jar</source-attachment-path>
+    </entry>
+    <entry id="C:/Users/Administrator/eclipse-workspace/test/WebContent/WEB-INF/lib/spring-core-4.0.4.RELEASE.jar">
+      <source-attachment-path>/test/WebContent/WEB-INF/lib/spring-core-4.0.4.RELEASE.jar</source-attachment-path>
+    </entry>
+  </container>
+</classpath>

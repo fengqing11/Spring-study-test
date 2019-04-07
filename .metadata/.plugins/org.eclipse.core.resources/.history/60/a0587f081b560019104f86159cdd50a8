@@ -1,0 +1,8 @@
+package top.tamlong;
+
+public class IntanceTest2 {
+	public static void main(String[] args) {
+		// 定义配置文件路径
+		String xmlPath = "top/tamlong/bean2.xml";
+	}
+}

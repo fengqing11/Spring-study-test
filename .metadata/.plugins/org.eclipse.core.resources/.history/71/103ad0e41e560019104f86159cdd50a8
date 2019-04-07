@@ -1,0 +1,7 @@
+package top.tamlong.factory;
+
+public class MyBean3Factory {
+	public MyBean3Factory() {
+		System.out.println("bean3工厂实例化中");
+	}
+}

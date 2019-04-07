@@ -1,0 +1,5 @@
+package top.tamlong.cglib;
+
+public class UserDao {
+
+}

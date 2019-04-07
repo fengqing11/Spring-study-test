@@ -1,0 +1,9 @@
+package com.itheima.ioc;
+
+public class TestloC {
+	// 1.初始化spring容器
+	ApplicationContext applicationContext = new ClassPathXmlApplicationContext("applicationContext.xml");
+	// 2.通过容器获取userDao实例
+	
+	// 3.调用实例中的say()方法
+}

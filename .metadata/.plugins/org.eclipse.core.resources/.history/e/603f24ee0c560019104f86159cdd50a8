@@ -1,0 +1,20 @@
+package com.itheima.ioc;
+
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.support.ClassPathXmlApplicationContext;
+
+public class TestloC {
+	
+	public static void main(String[] args) {
+		// 定义配置文件路径
+		String xmlPath = "file:C:/Users/Administrator/eclipse-workspace/first-19-4-3/src/com/itheima/ioc/applicationContext.xml"; 
+		// 1.初始化spring容器
+		ApplicationContext applicationContext = 
+				new ClassPathXmlApplicationContext(xmlPath);
+		// 2.通过容器获取userDao实例
+		UserDao userDao = (UserDao)applicationContext.getBean("userDao");
+		// 3.调用实例中的say()方法
+		userDao.say();
+	}
+	
+}

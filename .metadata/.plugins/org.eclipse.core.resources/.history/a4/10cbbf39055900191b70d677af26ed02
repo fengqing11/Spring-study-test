@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.springframework.org/schema/beans
+        http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+	<!-- 1 目标类 -->
+    <bean id="userDao" class="top.tamlong.jdk.UserDaoImpl" />
+    <!-- 2 切面类 -->
+    <bean id="myAspect" class="top.tamlong.factorybean.MyAspect" />
+    <!-- 3 使用Spring代理工厂定义一个名称为userDaoProxy的代理对象 -->
+    <bean id="bean1" class="top.tamlong.Bean1" />
+      
+
+</beans>

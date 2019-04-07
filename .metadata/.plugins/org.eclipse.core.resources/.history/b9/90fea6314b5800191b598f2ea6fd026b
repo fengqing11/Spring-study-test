@@ -1,0 +1,7 @@
+package top.tamlong.annotation;
+
+public class AnnotationAssemble {
+	public static void main(String[] args) {
+		// 定义配置文件路径
+		String xmlPath = "top/tamlong/annotation/beans6xml";
+	}

@@ -1,0 +1,11 @@
+package spi;
+
+public class Chinese implements Axe {
+
+	@Override
+	public String chop() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}
